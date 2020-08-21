@@ -1,0 +1,15 @@
+
+This script maps keys for EN and RU language pairs in the following way:
+
+SPACE -> CAPS
+Level3 mod -> SPACE
+Space+j -> Left 
+Space+l -> Right 
+Space+i -> Up
+Space+k -> Down 
+Space+h -> BackSpace
+Space+; -> Del 
+
+It use https://www.autohotkey.com/
+
+Install autohotkey and run script my.ahk with double-click.
