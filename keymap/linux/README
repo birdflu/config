@@ -12,3 +12,9 @@ Space+; -> Del
 put script in $HOME/.config/xkb/symbols and activate it with:
 
 xkbcomp $HOME/.config/xkb/symbols/my $DISPLAY
+
+to get a your current configuration template, run:
+
+xkbcomp -xkb $DISPLAY
+
+and check server-0.xkb file.
