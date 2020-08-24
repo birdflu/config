@@ -22,5 +22,5 @@ and check server-0.xkb file.
 Some linux distributions destroy xkb's keymap with GUI configure 
 when they apply lang layout configuration, for example. 
 In this way you need care about language switch keys in the configure file.
-In the https://github.com/birdflu/config/blob/master/keymap/linux/mykubuntu.xkb 
-this is shown for "Alt+Shift" switch case  (see <LALT>, <LFSH> and <RFSH> keys sections).
+In the mykubuntu.xkb this is shown for "Alt+Shift" switch case  
+(see <LALT>, <LFSH> and <RFSH> keys sections).
