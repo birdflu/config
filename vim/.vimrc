@@ -1,5 +1,5 @@
-# standart .vimrc content
-# and add:
+" standart .vimrc content
+" and add:
 
 set tabstop=2
 set shiftwidth=2
