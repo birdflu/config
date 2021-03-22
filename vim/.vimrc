@@ -19,5 +19,16 @@ inoremap <C-\> <C-v>u03bb
 " and then exec :PlugInstall in Vim
 
 call plug#begin('~/.vim/plugged')
+
 Plug 'machakann/vim-swap'
+Plug 'tsandall/vim-rego'
+
 call plug#end()
+
+let g:formatdef_rego = '"opa fmt"'
+let g:formatters_rego = ['rego']
+let g:autoformat_autoindent = 0
+let g:autoformat_retab = 0
+" let g:autoformat_verbosemode = 1
+au BufWritePre *.rego Autoformat
+
