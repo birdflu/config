@@ -11,6 +11,12 @@ xkb_keymap {
     name[group1]="English (US)";
     name[group2]="Russian";
 
+    virtual_modifiers Control_R;
+    key <RCTL> {
+         symbols[Group1] = [ ISO_Next_Group ],
+         virtualMods = Control_R
+    };
+   
     key <CAPS> { [ space ] };
     key <SPCE> { [ ISO_Level3_Shift ] }; 
     
