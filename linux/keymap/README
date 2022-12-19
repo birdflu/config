@@ -15,7 +15,11 @@ xkbcomp $HOME/.config/xkb/symbols/my $DISPLAY
 
 to get a your current configuration template, run:
 
-xkbcomp -xkb $DISPLAY
+> xkbcomp -xkb $DISPLAY
+or
+> xkbcomp ~/.config/xkb/symbols/my $DISPLAY > /dev/null 2>&1 
+or
+> xkbcomp ~/.config/xkb/symbols/my :0 > /dev/null 2>&1 
 
 and check server-0.xkb file.
 
