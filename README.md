@@ -1,2 +1,2 @@
 # config
-configure scripts for mac, linux and windows
+Configure scripts for mac, linux and windows
